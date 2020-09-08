@@ -18,7 +18,7 @@ export function Profile() {
 
             <View style={[styles.views, styles.ident1]}>
             <Text style={{ fontSize: 20,fontWeight: 'bold'}}>Futuro pentester </Text>
-            <Text style={{ fontSize: 20,fontWeight: 'bold' }}> {"\n"} Honorificos: </Text>
+            <Text style={{ fontSize: 20,fontWeight: 'bold' }}> {"\n"} Honorss: </Text>
             <Text style={{ fontSize: 15 }}> Brabo da CEMAQ {"\n"} Maior hacker da minha casa </Text>
 
             </View>
@@ -30,8 +30,8 @@ export function Profile() {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#DEDEDE',
+      flex: 2,
+      backgroundColor: 'lightgray',
       alignItems: 'center',
       justifyContent: 'center',
       flexDirection: "column",
